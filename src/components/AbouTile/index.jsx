@@ -1,10 +1,18 @@
-import React from 'react';
-import style from './about.module.less';
+import React from "react"
+import style from "./about.module.less"
 
-const AboutTile = (props) => {
+const AboutTile = props => {
   const {
-    img, textH4, textH3, alt, height, width,
-  } = props;
+    img,
+    textH4,
+    textH3,
+    textH5,
+    textP,
+    textP1,
+    alt,
+    height,
+    width,
+  } = props
   return (
     <div className={style.aboutTile}>
       <div className={style.aboutBlock}>
@@ -12,15 +20,18 @@ const AboutTile = (props) => {
           src={`../${img}`}
           height={height || 64}
           width={width || 64}
-          alt={alt || ''}
+          alt={alt || ""}
         />
       </div>
       <div className={`textCenter ${style.mrTp26PX}`}>
-        <h4>{ textH4 || ''}</h4>
-        <h3>{textH3 || '' }</h3>
+        <h3>{textH3 || ""}</h3>
+        <h4>{textH4 || ""}</h4>
+        <h5>{textH5 || ""}</h5>
+        <p>{textP || ""}</p>
+        <p>{textP1 || ""}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutTile;
+export default AboutTile

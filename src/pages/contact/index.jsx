@@ -1,9 +1,9 @@
-import React from 'react';
-import { Layout, Row, Col } from 'antd';
-import Header from '../../components/PageLayout/Header';
-import SidebarWrapper from '../../components/PageLayout/Sidebar';
-import ContactForm from '../../components/PageFragments/ContactForm';
-import SEO from '../../components/Seo';
+import React from "react"
+import { Layout, Row, Col } from "antd"
+import Header from "../../components/PageLayout/Header"
+import SidebarWrapper from "../../components/PageLayout/Sidebar"
+import ContactForm from "../../components/PageFragments/ContactForm"
+import SEO from "../../components/Seo"
 
 const Contact = () => (
   <Layout className="outerPadding">
@@ -15,7 +15,17 @@ const Contact = () => (
                     technologies especially Javascript techstacks. Currently I'm a part of Gatsby organization on github.
                     Find me on github - rolwin100."
         path="/contact"
-        keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby', 'technology']}
+        keywords={[
+          "Rolwin",
+          "Reevan",
+          "Monteiro",
+          "FullStack developer",
+          "Javascript",
+          "ReactJS",
+          "NodeJS",
+          "Gatsby",
+          "technology",
+        ]}
       />
       <Header />
       <SidebarWrapper>
@@ -35,6 +45,6 @@ const Contact = () => (
       </SidebarWrapper>
     </Layout>
   </Layout>
-);
+)
 
-export default Contact;
+export default Contact

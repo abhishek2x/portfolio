@@ -1,45 +1,45 @@
-const config = require('./config');
+const config = require("./config")
 
 module.exports = [
-  'gatsby-plugin-react-helmet',
-  'gatsby-transformer-sharp',
-  'gatsby-plugin-sharp',
-  'gatsby-plugin-less',
-  'gatsby-plugin-offline',
+  "gatsby-plugin-react-helmet",
+  "gatsby-transformer-sharp",
+  "gatsby-plugin-sharp",
+  "gatsby-plugin-less",
+  "gatsby-plugin-offline",
   {
-    resolve: 'gatsby-source-filesystem',
+    resolve: "gatsby-source-filesystem",
     options: {
-      name: 'images',
+      name: "images",
       path: `${__dirname}/src/images`,
     },
   },
   {
-    resolve: 'gatsby-plugin-manifest',
+    resolve: "gatsby-plugin-manifest",
     options: {
-      name: 'Rolwin Reevan',
-      short_name: 'Rolwin Reevan',
-      start_url: '/',
-      background_color: '#304CFD',
-      theme_color: '#304CFD',
-      display: 'standalone',
-      icon: 'src/images/icon.png', // This path is relative to the root of the site.
+      name: "Abhishek Srivastava",
+      short_name: "Abhishek Srivastava",
+      start_url: "/",
+      background_color: "#304CFD",
+      theme_color: "#304CFD",
+      display: "standalone",
+      icon: "src/images/icon.png", // This path is relative to the root of the site.
       legacy: true, // this will add apple-touch-icon links to <head>. Required for
       // versions prior to iOS 11.3.
     },
   },
   {
-    resolve: 'gatsby-source-filesystem',
+    resolve: "gatsby-source-filesystem",
     options: {
-      name: 'markdown-pages',
+      name: "markdown-pages",
       path: `${__dirname}/content`,
     },
   },
   {
-    resolve: 'gatsby-transformer-remark',
+    resolve: "gatsby-transformer-remark",
     options: {
       plugins: [
         {
-          resolve: 'gatsby-remark-images',
+          resolve: "gatsby-remark-images",
           options: {
             maxWidth: 1000,
             quality: 80,
@@ -48,36 +48,36 @@ module.exports = [
           },
         },
         {
-          resolve: 'gatsby-remark-external-links',
+          resolve: "gatsby-remark-external-links",
           options: {
-            rel: 'nofollow',
+            rel: "nofollow",
           },
         },
-        'gatsby-remark-prismjs',
+        "gatsby-remark-prismjs",
       ],
     },
   },
   {
-    resolve: 'gatsby-plugin-i18n',
+    resolve: "gatsby-plugin-i18n",
     options: {
       langKeyDefault: config.defaultLanguage,
       useLangKeyLayout: false,
     },
   },
-  'gatsby-plugin-sitemap',
-  'gatsby-plugin-robots-txt',
+  "gatsby-plugin-sitemap",
+  "gatsby-plugin-robots-txt",
   {
-    resolve: 'gatsby-plugin-antd',
+    resolve: "gatsby-plugin-antd",
     options: {
       javascriptEnabled: true,
     },
   },
   {
-    resolve: 'gatsby-plugin-eslint-v2',
+    resolve: "gatsby-plugin-eslint-v2",
     options: {
       test: /\.js$|\.jsx$/,
       exclude: /(node_modules|.cache|public)/,
-      stages: ['develop'],
+      stages: ["develop"],
       options: {
         emitWarning: true,
         failOnError: false,
@@ -85,7 +85,7 @@ module.exports = [
     },
   },
   {
-    resolve: 'gatsby-plugin-google-analytics',
+    resolve: "gatsby-plugin-google-analytics",
     options: {
       // The property ID; the tracking code won't be generated without it
       trackingId: config.googleAnalyticTrackingId,
@@ -94,12 +94,12 @@ module.exports = [
     },
   },
   {
-    resolve: 'gatsby-plugin-nprogress',
+    resolve: "gatsby-plugin-nprogress",
     options: {
       // Setting a color is optional.
-      color: 'black',
+      color: "black",
       // Disable the loading spinner.
       showSpinner: true,
     },
   },
-];
+]

@@ -1,50 +1,25 @@
-import React from 'react';
-import { Row, Col } from 'antd';
-import ProgressBar from '../../Progress';
+import React from "react"
+import { Row, Col } from "antd"
+import ProgressBar from "../../Progress"
 
 const SkillsProgress = () => (
   <div>
-    <h2>My Skills</h2>
+    <h2 className="titleSeparate">My Skills</h2>
     <Row gutter={[20, 20]}>
       <Col xs={24} sm={24} md={12}>
-
-        <ProgressBar
-          percent={80}
-          text="Javascript"
-        />
-        <ProgressBar
-          percent={95}
-          text="ReactJS"
-        />
-        <ProgressBar
-          percent={85}
-          text="Gatsby"
-        />
-        <ProgressBar
-          percent={90}
-          text="NodeJS"
-        />
+        <ProgressBar percent={80} text="Javascript" />
+        <ProgressBar percent={90} text="ReactJS" />
+        <ProgressBar percent={95} text="Django" />
+        <ProgressBar percent={85} text="NodeJS" />
       </Col>
       <Col xs={24} sm={24} md={12}>
-        <ProgressBar
-          percent={70}
-          text="Python"
-        />
-        <ProgressBar
-          percent={90}
-          text="Mysql"
-        />
-        <ProgressBar
-          percent={78}
-          text="MongoDB"
-        />
-        <ProgressBar
-          percent={80}
-          text="Wordpress"
-        />
+        <ProgressBar percent={85} text="Python" />
+        <ProgressBar percent={90} text="Mysql" />
+        <ProgressBar percent={95} text="C++" />
+        <ProgressBar percent={90} text="DSA" />
       </Col>
     </Row>
   </div>
-);
+)
 
-export default SkillsProgress;
+export default SkillsProgress

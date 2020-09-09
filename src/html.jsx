@@ -3,8 +3,8 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/prefer-stateless-function */
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react"
+import PropTypes from "prop-types"
 
 export default class HTML extends React.Component {
   render() {
@@ -13,7 +13,7 @@ export default class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <meta
+          <metas
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
@@ -29,7 +29,7 @@ export default class HTML extends React.Component {
           {this.props.postBodyComponents}
         </body>
       </html>
-    );
+    )
   }
 }
 
@@ -40,4 +40,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-};
+}

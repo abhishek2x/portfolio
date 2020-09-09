@@ -4,11 +4,11 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
-const config = require('./config');
-const plugins = require('./gatsby-config.plugins');
+const config = require("./config")
+const plugins = require("./gatsby-config.plugins")
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  // pathPrefix: "/GatsbySecret.github.io ",
   siteMetadata: {
     // Data used by some gatsby plugins
     siteUrl: config.siteUrl,
@@ -16,4 +16,4 @@ module.exports = {
     description: config.siteDescription,
   },
   plugins,
-};
+}
