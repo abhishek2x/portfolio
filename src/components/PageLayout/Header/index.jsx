@@ -50,7 +50,7 @@ export default () => {
                 About
               </Link>
             </li>
-            {/* <li className={style.navItem}>
+            <li className={style.navItem}>
               <Link
                 to="/blog"
                 onClick={toggleMenu}
@@ -58,16 +58,16 @@ export default () => {
               >
                 Blog
               </Link>
-            </li> */}
-            {/* <li className={style.navItem}>
+            </li>
+            <li className={style.navItem}>
               <Link
                 to="/tags"
                 onClick={toggleMenu}
                 activeClassName={style.anchorActive}
               >
-                Experience
+                Projects
               </Link>
-            </li> */}
+            </li>
             <li className={style.navItem}>
               <Link
                 to="/contact"
@@ -78,16 +78,6 @@ export default () => {
               </Link>
             </li>
             <li className={style.navItem}>
-              <a
-                href="https://github.com/abhishek2x/"
-                target="_black"
-                onClick={toggleMenu}
-                activeClassName={style.anchorActive}
-              >
-                Previous Version
-              </a>
-            </li>
-            {/* <li className={style.navItem}>
               <Link
                 to="/resume"
                 onClick={toggleMenu}
@@ -95,7 +85,17 @@ export default () => {
               >
                 Resume
               </Link>
-            </li> */}
+            </li>
+            <li className={style.navItem}>
+              <a
+                href="https://abhishek2x.github.io/portfolio/"
+                target="_black"
+                onClick={toggleMenu}
+                activeClassName={style.anchorActive}
+              >
+                Previous Version
+              </a>
+            </li>
           </ul>
         </div>
       </Layout>

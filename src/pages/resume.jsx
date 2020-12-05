@@ -20,7 +20,7 @@ export default class Resume extends Component {
     const { pageNumber, numPages } = this.state
     const pageToggle = () => {
       if (pageNumber === 1) {
-        this.setState({ pageNumber: 1 })
+        this.setState({ pageNumber: 2 })
       } else {
         this.setState({ pageNumber: 1 })
       }
@@ -47,9 +47,9 @@ export default class Resume extends Component {
             <p>{`Page ${pageNumber} of ${numPages}`}</p>
           </Col>
           <Col span={2}>
-            {/* <Button type="primary" onClick={pageToggle}>
+            <Button type="primary" onClick={pageToggle}>
               {pageNumber === 1 ? "Next Page" : "Previous Page"}
-            </Button> */}
+            </Button>
           </Col>
         </Row>
       </div>

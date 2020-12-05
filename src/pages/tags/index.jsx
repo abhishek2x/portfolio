@@ -25,7 +25,7 @@ const Tags = ({ data }) => {
       <Layout className="container">
         <Header />
         <SEO
-          title="Tags"
+          title="Projects"
           description="This page consists of various Tags on various technologies that I'll be using
           to write blogs. You can check the blogs related to the tags by clicking on any of the tags below."
           path="tags"
@@ -33,17 +33,23 @@ const Tags = ({ data }) => {
         <SidebarWrapper>
           <>
             <div className="marginTopTitle">
-              <h1 className="titleSeparate">Experience</h1>
+              <h1 className="titleSeparate">Projects</h1>
             </div>
 
             <Row gutter={[30, 20]}>
               {edges.map(val => (
                 <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
                   <TagCard
-                    img={val.node.childImageSharp.fluid.src}
-                    name={val.node.name}
+                    // img={val.node.childImageSharp.fluid.src}
+                    // name={val.node.name}
+                    // description={tagData[val.node.name].description}
+                    // color={tagData[val.node.name].color}
+
+                    img={tagData[val.node.name].img}
+                    name={tagData[val.node.name]}
                     description={tagData[val.node.name].description}
                     color={tagData[val.node.name].color}
+                    link={tagData[val.node.name].link}
                   />
                 </Col>
               ))}
