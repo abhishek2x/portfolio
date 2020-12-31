@@ -10,21 +10,20 @@ const Contact = () => (
     <Layout className="container">
       <SEO
         title="Contact"
-        description="Hello folks Rolwin here. You can contact me through the contact form on this page.
-                    Please feel free to contact me, don't be shy guys, just remember Rolwin is always open to talk about web
+        description="Hello folks Abhishek here. You can contact me through the contact form on this page.
+                    Please feel free to contact me, don't be shy guys, just remember Abhishek is always open to talk about web
                     technologies especially Javascript techstacks. Currently I'm a part of Gatsby organization on github.
-                    Find me on github - rolwin100."
+                    Find me on github - Abhishek100."
         path="/contact"
         keywords={[
-          "Rolwin",
-          "Reevan",
-          "Monteiro",
-          "FullStack developer",
-          "Javascript",
+          "Abhishek",
+          "Srivastava",
+          "TheProgrammedEnthusiast",
+          "DSC Lead",
+          "Django",
           "ReactJS",
-          "NodeJS",
-          "Gatsby",
-          "technology",
+          "Technical Writer",
+          "VIT Bhopal",
         ]}
       />
       <Header />

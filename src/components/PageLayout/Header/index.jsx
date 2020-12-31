@@ -50,7 +50,7 @@ export default () => {
                 About
               </Link>
             </li>
-            <li className={style.navItem}>
+            {/* <li className={style.navItem}>
               <Link
                 to="/blog"
                 onClick={toggleMenu}
@@ -67,7 +67,7 @@ export default () => {
               >
                 Projects
               </Link>
-            </li>
+            </li> */}
             <li className={style.navItem}>
               <Link
                 to="/contact"

@@ -1,12 +1,12 @@
-export const stripTags = ipStr => {
-  let str = ipStr
-  if (str === null || str === "") {
-    return false
+export const stripTags = (ipStr) => {
+  let str = ipStr;
+  if (str === null || str === '') {
+    return false;
   }
 
-  str = str.toString()
+  str = str.toString();
 
-  return str.replace(/(<([^>]+)>)/gi, "")
-}
+  return str.replace(/(<([^>]+)>)/gi, '');
+};
 
-export const domHtml = str => ({ __html: str })
+export const domHtml = (str) => ({ __html: str });

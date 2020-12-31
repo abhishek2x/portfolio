@@ -57,7 +57,7 @@ const AboutMe = () => {
             height={60}
             alt="location image"
             textH4="Born and bought up in"
-            textH3="Lucknow, UP, India"
+            textH3="Lucknow, India"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
