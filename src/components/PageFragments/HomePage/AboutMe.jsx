@@ -86,20 +86,20 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="web.png"
-            alt="web image"
-            textH4="Thanks to the Open-source Community"
-            textH3="Self Taught Programmer"
+            img="graduation.png"
+            alt="graduation image"
+            textH4="Pursuing B.Tech"
+            textH3="Computer Science"
             height={60}
             width={60}
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="graduation.png"
-            alt="graduation image"
-            textH4="Pursuing B.Tech"
-            textH3="Computer Science"
+            img="MSP.png"
+            alt="MSP"
+            textH4="Microsoft Student Partner"
+            textH3="Microsoft Student Learn Ambassador"
             height={60}
             width={60}
           />

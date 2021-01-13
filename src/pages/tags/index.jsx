@@ -40,16 +40,16 @@ const Tags = ({ data }) => {
               {edges.map(val => (
                 <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
                   <TagCard
-                    // img={val.node.childImageSharp.fluid.src}
-                    // name={val.node.name}
-                    // description={tagData[val.node.name].description}
-                    // color={tagData[val.node.name].color}
-
-                    img={tagData[val.node.name].img}
-                    name={tagData[val.node.name]}
+                    img={val.node.childImageSharp.fluid.src}
+                    name={val.node.name}
                     description={tagData[val.node.name].description}
                     color={tagData[val.node.name].color}
-                    link={tagData[val.node.name].link}
+
+                    // img={tagData[val.node.name].img}
+                    // name={tagData[val.node.name]}
+                    // description={tagData[val.node.name].description}
+                    // color={tagData[val.node.name].color}
+                    // link={tagData[val.node.name].link}
                   />
                 </Col>
               ))}
