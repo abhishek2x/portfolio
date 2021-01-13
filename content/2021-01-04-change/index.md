@@ -1,11 +1,10 @@
 ---
 title: "2020 into 2021"
-path: blog/2020 into 2021
-tags: [resolution, year, 2020]
+path: blog/new-year-2021
+tags: [resolution, year, twenty-twenty]
 cover: ./cover.png
 date: 2021-01-04
 excerpt: Not just a normal year
-
 
 ---
 
