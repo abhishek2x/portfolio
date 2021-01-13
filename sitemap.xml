@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/code-splitting-in-react</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/center-align-things-with-css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/promises-in-javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/why-i-migrated-my-website-from-wordpress-to-gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/how-to-build-your-own-compiler</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/react–the-future-of-web-frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/django-the-widely-used-python-framework-for-web-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/top-7-rxjs-patterns</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/blog/hello-world-rolwins-first-blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/html</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/css</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/react-roadmap</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/new-year-2021</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/binary-search-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/dsc</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/binary-search-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/Understanding-React</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/JavaScript-LocalStorage-Part-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/JavaScript-LocalStorage-Part-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/teeet-t</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/hashing-revealed</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/Build-a-Chrome-Extension-in-less-than-15-mins</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/Integrating-Django-with-React</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://portfolio.abhisheksrivastava.com/blog/How-to-get-started-with-Coding</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://portfolio.abhisheksrivastava.com/tags/reactjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/typescript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/nodejs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/python</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://portfolio.abhisheksrivastava.com/tags/rxjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://portfolio.abhisheksrivastava.com/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://portfolio.abhisheksrivastava.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://portfolio.abhisheksrivastava.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
