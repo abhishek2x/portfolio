@@ -1,7 +1,7 @@
 ---
 title: "How to get started with Coding."
 path: blog/How-to-get-started-with-Coding
-tags: [coding, html,css]
+tags: []
 cover: ./img.jpeg
 date: 2020-03-19
 excerpt: 2020 is a weird time to begin your programming journey. It’s presented an interesting duality wherein you both have more resources available to you than at any time in history, and paradoxically, the sheer magnitude of the information on offer can be completely overwhelming.

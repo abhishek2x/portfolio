@@ -1,7 +1,7 @@
 ---
 title: "Understanding React"
 path: blog/Understanding-React
-tags: [web, js, react]
+tags: [reactjs]
 cover: ./cover.png
 date: 2020-08-29
 excerpt: Read this short, to the point article as it guides you through the most fundamental and essential concepts of React Js

@@ -1,7 +1,7 @@
 ---
 title: "Hashing Revealed."
 path: blog/hashing-revealed
-tags: [hashing, dsa,data-structure]
+tags: [reactjs]
 cover: ./cover.jpeg
 date: 2020-04-14
 excerpt: Hashing is an important Data Structure which is designed to use a special function called the Hash function which is used to map a given value with a particular key for faster access of elements. The efficiency of mapping depends of the efficiency of the hash function used.

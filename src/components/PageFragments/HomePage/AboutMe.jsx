@@ -16,7 +16,7 @@ const pageText = {
   `,
   paraThree: `
   Being a developer of various Technical Forums, Google Develop Student Club Lead 
-  and Metor at Student Code-in I have been contributing to make the youth of this world well versed with 
+  and Mentor at Student Code-in I have been contributing to make the youth of this world well versed with 
   programming. Being pragmatic by nature, I inhabit an up help desire and straight forward 
   outlook. I love Coding and programming and always try to implement it to solve real-world problems. 
 

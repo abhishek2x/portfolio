@@ -1,7 +1,7 @@
 ---
 title: "Capabilities of Binary Search Algorithm: Part-1"
 path: blog/binary-search-1
-tags: [algorithms, dsa, binary-search]
+tags: [reactjs]
 cover: ./cover.png
 date: 2020-11-19
 excerpt: More than just a Searching Algorithm

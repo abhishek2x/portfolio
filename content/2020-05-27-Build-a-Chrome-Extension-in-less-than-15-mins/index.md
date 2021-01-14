@@ -1,7 +1,7 @@
 ---
 title: "Build a Chrome Extension in less than 15 mins."
 path: blog/Build-a-Chrome-Extension-in-less-than-15-mins
-tags: [google, extension,html]
+tags: [reactjs]
 cover: ./cover.png
 date: 2020-04-14
 excerpt: A browser extension is a small software module for customizing a web browser. Browsers typically allow a variety of extensions, including user interface modifications, ad blocking, and cookie management. Browser plug-ins are a separate type of module.

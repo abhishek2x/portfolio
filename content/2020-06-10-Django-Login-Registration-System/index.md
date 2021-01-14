@@ -1,7 +1,7 @@
 ---
 title: "Django Login and Registration System"
 path: blog/teeet-t
-tags: [django, web,login]
+tags: [reactjs]
 cover: ./cover.jpeg
 date: 2020-06-10
 excerpt: I wanted to write a simple application of Django and show how simple it is to carry out complex tasks with Django.

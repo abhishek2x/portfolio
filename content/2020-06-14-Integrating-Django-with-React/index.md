@@ -1,7 +1,7 @@
 ---
 title: "Integrating Django with React."
 path: blog/Integrating-Django-with-React
-tags: [django, js,react]
+tags: [reactjs]
 cover: ./cover.jpeg
 date: 2020-04-14
 excerpt: In this short, yet comprehensive article, I’ll walk you through the complete process of Integrating your Django back-end application with React front-end.

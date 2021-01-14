@@ -1,7 +1,7 @@
 ---
 title: "2020 into 2021"
 path: blog/new-year-2021
-tags: [resolution, year, twenty-twenty]
+tags: [reactjs]
 cover: ./cover.png
 date: 2021-01-04
 excerpt: Not just a normal year

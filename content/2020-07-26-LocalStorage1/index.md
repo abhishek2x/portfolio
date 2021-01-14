@@ -1,7 +1,7 @@
 ---
 title: "A Complete Guide to LocalStorage in JavaScript: Part-1."
 path: blog/JavaScript-LocalStorage-Part-1
-tags: [web, js, localstorage]
+tags: [reactjs]
 cover: ./cover.png
 date: 2020-07-11
 excerpt: In this short, to the point article, I’ll guide you through the complete theoretical explanation and practical implementation of localStorage in JavaScript.

@@ -1,8 +1,8 @@
 ---
 title: "Developer Student Clubs"
 path: blog/dsc
-tags: [google, DSC, community]
-cover: ./cover.png
+tags: [reactjs]
+cover: ./3.jpeg
 date: 2020-11-19
 excerpt: A dream of every college student who aspires to be a developer.
 ---
