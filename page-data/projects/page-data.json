@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-pages-projects-index-jsx","path":"/projects/","result":{"errors":[{"message":"Variable \"$tag\" of required type \"String!\" was not provided.","locations":[{"line":9,"column":94}]}],"pageContext":{"slug":"/projects/","langKey":"en"}}}
