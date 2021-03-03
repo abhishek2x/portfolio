@@ -6,6 +6,7 @@ import SidebarWrapper from "../components/PageLayout/Sidebar"
 import AboutMe from "../components/PageFragments/HomePage/AboutMe"
 import Skills from "../components/PageFragments/HomePage/SkillProgress"
 import Education from "../components/PageFragments/HomePage/Education"
+import GitHub from "../components/PageFragments/HomePage/GitHub"
 
 export default () => (
   <Layout className="outerPadding">
@@ -16,6 +17,7 @@ export default () => (
           <AboutMe />
           <Skills />
           <Education />
+          <GitHub />
         </>
       </SidebarWrapper>
     </Layout>

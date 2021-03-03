@@ -1,10 +1,9 @@
 ---
-title: "A Practical Roadmap for React Development
-."
+title: "A Practical Roadmap for React Development."
 path: blog/react-roadmap
 tags: [reactjs]
 cover: ./cover.png
-date: 2020-17-11
+date: 2020-07-11
 excerpt: In this short, to the point article, I’ll be guiding you through the complete process of learning React and becoming efficient in it.
 
 ---
