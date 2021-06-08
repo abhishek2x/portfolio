@@ -200,46 +200,6 @@ Conclusion
 
 All in all, it was a great year, and I learned a ton! It went by too fast. I’m excited for 2021. Thank you all for reading, contributing and emailing! Please don’t hesitate to send me an email at `abhisheksrivastavabbn@gmail.com` if you have any questions or comments or ideas. Have a great rest of the year!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## *Happy Coding!*
 
 #### Thanks a lot for reading till end. You can contact me in case if you need any assistance:

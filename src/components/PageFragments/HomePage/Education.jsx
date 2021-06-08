@@ -14,8 +14,7 @@ const Education = () => (
           textH3="St. Francis' College, Lucknow"
           textH4="Matriculation and Higher Secondary Education"
           textH5="2004 to 2019"
-          textP="Matriculation: 90.34%"
-          textP1="Higher Secondary Education: 88%"
+          textP="Matriculation: 90.34% || Higher Secondary Education: 88%"
         />
       </Col>
       <Col xs={36} sm={36} md={18} lg={12}>
